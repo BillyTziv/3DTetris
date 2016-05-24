@@ -7,7 +7,7 @@ VraXaPsa game was developed for Computer Graphics and Interactive Systems, an un
 The concept is the same, as the one in a simple tetris game but instead of various cube shapes, the possible objects that may be dropping from the top are rocks, scissors, papers, bombs and magic cubes. Some of the objects win/'eat' others. For example, a rock wins all scissors and a paper wins all rocks. Bombs win everything and magic cubes can be win other by bombs.
 
 The project was developed in C language using openGL graphics library.
-![alt tag](https://raw.githubusercontent.com/BillyTziv/VraXaPsa/vraxapsa_game.png)
+![Screenshot of the 3D game](https://github.com/BillyTziv/VraXaPsa/blob/master/vraxapsa_game.png)
 
 # Installation
 To run and play the game, OpenGL is necessary. In Ubuntu 16.04LTS you will need to follow the next steps in order to install the OpenGL and play the game.
