@@ -1,13 +1,14 @@
-# VraXaPsa
-3D tetris-like game using openGL graphics library
+# 3DTetris
+3D tetris game using openGL graphics library
 
-VraXaPsa game was developed for Computer Graphics and Interactive Systems, an undergraduate course in Computer Sience and Englneering Department of Ioannina, University of Ioannina and was finally reviewed by Ioannis Fudos.
+3DTetris game was developed for Computer Graphics and Interactive Systems, an undergraduate course in Computer Sience and Englneering Department of Ioannina, University of Ioannina and was finally reviewed by Ioannis Fudos.
+
+![Alt text](https://github.com/BillyTziv/3DTetris/blob/master/vraxapsa_game.png "3DTetris")
 
 # Concept
-The concept is the same, as the one in a simple tetris game but instead of various cube shapes, the possible objects that may be dropping from the top are rocks, scissors, papers, bombs and magic cubes. Some of the objects win/'eat' others. For example, a rock wins all scissors and a paper wins all rocks. Bombs win everything and magic cubes can be win other by bombs.
+The concept is the same, as the one in a simple tetris game but you can also stop the game and view the 3d space.
 
-The project was developed in C language using openGL graphics library.
-![Screenshot of the 3D game](https://github.com/BillyTziv/VraXaPsa/blob/master/vraxapsa_game.png)
+The project was developed in C++ language using openGL graphics library.
 
 # Installation
 To run and play the game, OpenGL is necessary. In Ubuntu 16.04LTS you will need to follow the next steps in order to install the OpenGL and play the game.
