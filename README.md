@@ -15,7 +15,7 @@ To run and play the game, OpenGL is necessary. In Ubuntu 16.04LTS you will need 
 
 1. sudo apt-get install build-essential
 2. sudo apt-get install freeglut3 freeglut3-dev
-3. Download the library from http://www.rpmseek.com/rpm-pl/libglui2c2.html?hl=com&cs=libgcc1:RE:0:0:0:0:2420 according to your system. Then use sudo dpkg -i <package> to install it.
+3. Download the library from http://www.rpmseek.com/rpm-pl/libglui2c2.html?hl=com&cs=libgcc1:RE:0:0:0:0:2420 according to your system. Then use sudo dpkg -i <package_name> to install it. IF you are against errors about depedencies, please run sudo apt-get -f install. Then run sudo dpkg -i <package_name> again and it should be just fine.
 
 Now you should be able to play the game! Enjoy! :)
  
