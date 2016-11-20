@@ -23,7 +23,22 @@ The structure we used is the following:
 - 3D array to create the grid. Each array element is type class cube.
 - Neighbours are saved at lists.
 
+# Installation
+To run and play the game, OpenGL is necessary. In Ubuntu 16.04LTS you will need to follow the next steps in order to install the OpenGL and play the game.
+
+1. sudo apt-get install build-essential
+2. sudo apt-get install freeglut3 freeglut3-dev
+3. Download the library from http://www.rpmseek.com/rpm-pl/libglui2c2.html?hl=com&cs=libgcc1:RE:0:0:0:0:2420 according to your system. Then use sudo dpkg -i <package_name> to install it. IF you are against errors about depedencies, please run sudo apt-get -f install. Then run sudo dpkg -i <package_name> again and it should be just fine.
+
+Now you should be able to play the game! Enjoy! :)
+
 # How to play
+You have to compile the main.cpp file using the Makefile. To do this just run:
+make all
+then you should be able to execute the executable file by running
+./a.out
+
+Below you can find your shortcuts:
 - Esc 		: exit program
 - s 		: start/pause
 - 1 		: X axis grid rotation
@@ -45,14 +60,6 @@ The structure we used is the following:
 - t			: cube movement, increase Z
 - y			: cube movement, decrease Z
 
-# Installation
-To run and play the game, OpenGL is necessary. In Ubuntu 16.04LTS you will need to follow the next steps in order to install the OpenGL and play the game.
-
-1. sudo apt-get install build-essential
-2. sudo apt-get install freeglut3 freeglut3-dev
-3. Download the library from http://www.rpmseek.com/rpm-pl/libglui2c2.html?hl=com&cs=libgcc1:RE:0:0:0:0:2420 according to your system. Then use sudo dpkg -i <package_name> to install it. IF you are against errors about depedencies, please run sudo apt-get -f install. Then run sudo dpkg -i <package_name> again and it should be just fine.
-
-Now you should be able to play the game! Enjoy! :)
  
 # Contact
 Please feel free to contact me for anything you might want in vtzivaras@gmail.com
